@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>事業者情報｜法人向けドライヘッドスパ Hāro</title>
+  <meta name="description" content="出張ドライヘッドスパ Hāro（ハーロ）の事業者情報についてご案内します。" />
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body.theme-warm { color: #1f2937; }
+    :root {
+      --warm-amber: #e9a44d;
+      --warm-amber-50: #fff7ea;
+      --accent-blue: #5b7790;
+      --accent-blue-10: rgba(91,119,144,.10);
+      --ink: #1f2937;
+    }
+
+    .cloud-cta {
+      --cta-bg: #fff;
+      --cta-fg: #1f2937;
+      --cta-border: rgba(214,211,209,.6);
+      position: relative;
+      background: var(--cta-bg);
+      color: var(--cta-fg);
+      border-radius: 2rem;
+      border: 1px solid var(--cta-border);
+      box-shadow: 0 18px 40px rgba(0,0,0,.10);
+      padding: 28px;
+      min-height: 156px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      isolation: isolate;
+    }
+    .cloud-cta:before, .cloud-cta:after { content: ""; position: absolute; background: var(--cta-bg); border-radius: 9999px; box-shadow: inset 0 0 0 1px rgba(214,211,209,.35); z-index: -1; }
+    .cloud-cta:before { width: 52px; height: 52px; top: -16px; left: 34px; }
+    .cloud-cta:after { width: 68px; height: 68px; bottom: -20px; right: 40px; }
+
+    .cloud-cta--amber {
+      --cta-bg: rgb(217 119 6);
+      --cta-fg: #fff;
+      --cta-border: transparent;
+      box-shadow: 0 22px 48px rgba(217,119,6,.28);
+    }
+    .cloud-cta--amber:before, .cloud-cta--amber:after { box-shadow: inset 0 0 0 1px rgba(255,255,255,.15); }
+
+    .cloud-cta--white {
+      --cta-bg: #fff;
+      --cta-fg: #1f2937;
+      --cta-border: rgba(214,211,209,.7);
+      box-shadow: 0 18px 40px rgba(0,0,0,.10);
+    }
+
+    .cloud-cta .ttl { font-size: clamp(18px,2.2vw,22px); font-weight: 700; line-height: 1.25; }
+    .cloud-cta .sub { margin-top: 8px; font-size: 14px; opacity: .85; }
+
+    .cta-cloud-row { display: flex; flex-direction: column; gap: 50px; }
+    @media (min-width: 768px) {
+      .cta-cloud-row { flex-direction: row; justify-content: center; gap: 40px; }
+      .cloud-cta { min-width: 360px; max-width: 420px; }
+    }
+
+    .section-pad { padding-top: 6rem; padding-bottom: 6rem; }
+    @media (max-width: 640px) {
+      .section-pad { padding-top: 4rem; padding-bottom: 4rem; }
+    }
+  </style>
+</head>
+<body class="theme-warm antialiased text-stone-800 bg-white">
+
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-stone-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="font-semibold text-lg leading-none">出張ドライヘッドスパ Hāro（ハーロ）</a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="index.html#about" class="hover:opacity-70">About</a>
+        <a href="index.html#problems" class="hover:opacity-70">お悩み</a>
+        <a href="index.html#effects" class="hover:opacity-70">効果</a>
+        <a href="index.html#benefits" class="hover:opacity-70">法人メリット</a>
+        <a href="index.html#pricing" class="hover:opacity-70">料金</a>
+        <a href="index.html#area" class="hover:opacity-70">対応エリア</a>
+        <a href="#contact" class="ml-2 inline-flex items-center justify-center px-4 py-2 rounded-full bg-amber-600 text-white font-semibold shadow-sm hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600/40">お問い合わせ</a>
+      </nav>
+      <button id="navToggle" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-stone-300 hover:bg-stone-50" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileNav">
+        <svg id="iconOpen" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <svg id="iconClose" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" viewBox="0 0 24 24" fill="none">
+          <path d="M6 6l12 12M18 6l-12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <div id="mobileNav" class="md:hidden fixed inset-x-0 top-0 translate-y-[-100%] opacity-0 pointer-events-none transition-all duration-200 ease-out">
+      <div class="bg-white/95 backdrop-blur border-b border-stone-200 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+          <span class="font-semibold text-lg">出張ドライヘッドスパ Hāro（ハーロ）</span>
+          <button id="navClose" class="inline-flex items-center justify-center w-10 h-10 rounded-lg border border-stone-300 hover:bg-stone-50" aria-label="メニューを閉じる">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none">
+              <path d="M6 6l12 12M18 6l-12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+        <nav class="px-4 pb-4 grid gap-2 text-base">
+          <a href="index.html#about" class="block px-3 py-3 rounded-lg hover:bg-stone-50">About</a>
+          <a href="index.html#problems" class="block px-3 py-3 rounded-lg hover:bg-stone-50">お悩み</a>
+          <a href="index.html#effects" class="block px-3 py-3 rounded-lg hover:bg-stone-50">効果</a>
+          <a href="index.html#benefits" class="block px-3 py-3 rounded-lg hover:bg-stone-50">法人メリット</a>
+          <a href="index.html#pricing" class="block px-3 py-3 rounded-lg hover:bg-stone-50">料金</a>
+          <a href="index.html#area" class="block px-3 py-3 rounded-lg hover:bg-stone-50">対応エリア</a>
+          <a href="#contact" class="mt-1 block px-4 py-3 rounded-xl bg-amber-600 text-white font-semibold text-center hover:bg-amber-700">お問い合わせ</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function () {
+      const toggle = document.getElementById('navToggle');
+      const closeBtn = document.getElementById('navClose');
+      const drawer = document.getElementById('mobileNav');
+      const iconOpen = document.getElementById('iconOpen');
+      const iconClose = document.getElementById('iconClose');
+
+      function openNav() {
+        drawer.style.transform = 'translateY(0)';
+        drawer.style.opacity = '1';
+        drawer.style.pointerEvents = 'auto';
+        document.body.style.overflow = 'hidden';
+        toggle.setAttribute('aria-expanded', 'true');
+        iconOpen.classList.add('hidden');
+        iconClose.classList.remove('hidden');
+      }
+
+      function closeNav() {
+        drawer.style.transform = 'translateY(-100%)';
+        drawer.style.opacity = '0';
+        drawer.style.pointerEvents = 'none';
+        document.body.style.overflow = '';
+        toggle.setAttribute('aria-expanded', 'false');
+        iconOpen.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+      }
+
+      toggle?.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        expanded ? closeNav() : openNav();
+      });
+      closeBtn?.addEventListener('click', closeNav);
+
+      drawer.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', closeNav);
+      });
+
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeNav();
+      });
+
+      const header = document.querySelector('header');
+      const onScroll = () => {
+        if (window.scrollY > 4) {
+          header.classList.add('shadow-sm');
+        } else {
+          header.classList.remove('shadow-sm');
+        }
+      };
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    })();
+  </script>
+
+  <main class="max-w-4xl mx-auto px-4 py-12 md:py-16">
+    <h1 class="text-3xl md:text-4xl font-bold text-stone-900 mb-8 text-center">事業者情報</h1>
+
+    <div class="bg-amber-50/30 rounded-3xl p-8 md:p-10 shadow-sm border border-amber-100">
+      <div class="space-y-4 text-base md:text-lg text-stone-700">
+        <div class="pb-4 border-b border-stone-300">
+          <h2 class="font-semibold text-stone-900 mb-2">事業者名</h2>
+          <p>出張ドライヘッドスパ Hāro（ハーロ）</p>
+        </div>
+
+        <div class="pb-4 border-b border-stone-300">
+          <h2 class="font-semibold text-stone-900 mb-2">代表者</h2>
+          <p>ともよせゆい</p>
+        </div>
+
+        <div class="pb-4 border-b border-stone-300">
+          <h2 class="font-semibold text-stone-900 mb-2">お問い合わせ</h2>
+          <p>
+            メールアドレス: <a href="mailto:tomoyose.yui@outlook.jp" class="text-amber-700 hover:underline">tomoyose.yui@outlook.jp</a>
+          </p>
+        </div>
+
+        <div class="pb-4 border-b border-stone-300">
+          <h2 class="font-semibold text-stone-900 mb-2">サービス内容</h2>
+          <p>法人向け出張ドライヘッドスパサービス</p>
+        </div>
+
+        <div>
+          <h2 class="font-semibold text-stone-900 mb-2">対応エリア</h2>
+          <p>沖縄本島南部（那覇市中心）を基本に、日程や人数に応じて柔軟に調整します。<br>
+          那覇市、浦添市、豊見城市、南城市、西原町、与那原町、南風原町、八重瀬町<br>
+          <span class="text-sm text-stone-600">※ 上記以外の地域もご相談ください。</span></p>
+          <span class="text-sm text-stone-600">※ 訪問距離に応じて出張費をお願いする場合があります。</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a href="index.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-amber-600 text-white font-semibold hover:bg-amber-700 shadow">トップページに戻る</a>
+    </div>
+  </main>
+
+  <section id="contact" class="scroll-mt-24 py-0 bg-amber-100/30">
+    <div class="max-w-6xl mx-auto px-4 text-center section-pad">
+      <h2 class="font-serif tracking-tight text-3xl md:text-4xl font-bold">お問い合わせ</h2>
+      <p class="mt-3 text-stone-700 max-w-3xl mx-auto">ご希望やお困りごとを伺い、最適なプランとお見積もりをご提案します。下記フォームからお送りください。</p>
+      <div class="mt-10 cta-cloud-row">
+        <a href="https://x.gd/nkrN3" target="_blank" rel="noopener" class="cloud-cta cloud-cta--amber px-8" aria-label="お問い合わせフォーム（Googleフォーム）を開く">
+          <div>
+            <div class="ttl text-white">フォームを新しいタブで開く</div>
+            <div class="sub text-white/90">Googleフォームで簡単入力</div>
+          </div>
+        </a>
+        <a href="mailto:tomoyose.yui@outlook.jp" class="cloud-cta cloud-cta--white px-8" aria-label="メール起動">
+          <div>
+            <div class="ttl">メールで相談</div>
+            <div class="sub">テンプレをセットして起動</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8 bg-stone-50 border-t border-stone-200 mt-0">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <div class="space-y-2 text-sm text-stone-600">
+        <div><a href="index.html" class="hover:text-amber-700">トップ</a> | <a href="company.html" class="hover:text-amber-700">事業者情報</a> | <a href="privacy.html" class="hover:text-amber-700">プライバシーポリシー</a></div>
+        <div>© <span id="y"></span> Hāro</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
